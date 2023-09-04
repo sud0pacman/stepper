@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyStepperTu</string>
+
+
+
+        <string-array name="status">
+            <item>Confirmed</item>
+            <item>Dispatched</item>
+            <item>Arrived</item>
+            <item>Delivered</item>
+            <item>Reviewed</item>
+        </string-array>
+</resources>

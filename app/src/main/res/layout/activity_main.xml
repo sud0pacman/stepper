@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <uz.dev.mysteppertu.stepview.StatusViewScroller
+        android:id="@+id/status_view_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/status"
+        app:circleColor="#CC004B8D"
+        app:circleColorCurrent="#004B8D"
+        app:circleColorIncomplete="#BCBCBE"
+        app:circleColorType="fillStroke"
+        app:circleStrokeColorCurrent="#91A8D0"
+        app:circleStrokeWidth="4dp"
+        app:completeDrawable="@drawable/ic_done_black"
+        app:currentCount="4"
+        app:drawLabels="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineColor="@android:color/black"
+        app:lineColorCurrent="#91A8D0"
+        app:lineColorIncomplete="#B4B7BA"
+        app:lineGap="5dp"
+        app:lineWidth="3dp"
+        app:stepCount="5"
+        app:textColorLabels="@android:color/white"
+        app:textColorLabelsCurrent="@android:color/white"
+        app:textColorLabelsIncomplete="@android:color/black"
+        app:textSizeLabels="15sp"
+        tools:ignore="MissingClass" />
+</androidx.constraintlayout.widget.ConstraintLayout>
